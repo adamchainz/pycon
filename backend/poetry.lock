@@ -1446,11 +1446,11 @@ watchdog = ["watchdog"]
 
 [[package]]
 name = "whitenoise"
-version = "5.2.0"
+version = "6.2.0"
 description = "Radically simplified static file serving for WSGI applications"
 category = "main"
 optional = false
-python-versions = ">=3.5, <4"
+python-versions = ">=3.7"
 
 [package.extras]
 brotli = ["brotli"]
@@ -1498,7 +1498,7 @@ lambda = ["awslambdaric"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "72ce5cb9545a65373ee1e65cb209071c195982af7abf32375abae0ae5f18592c"
+content-hash = "0ee77ca8084fdad36a3b8f3fb745d0a3725ebe5dc737e9d216a1dd3c65bef3da"
 
 [metadata.files]
 aniso8601 = []
