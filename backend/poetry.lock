@@ -1046,16 +1046,17 @@ testing = ["django", "django-configurations (>=2.0)"]
 
 [[package]]
 name = "pytest-factoryboy"
-version = "2.0.3"
+version = "2.5.0"
 description = "Factory Boy support for pytest."
 category = "dev"
 optional = false
-python-versions = "*"
+python-versions = ">=3.7"
 
 [package.dependencies]
 factory_boy = ">=2.10.0"
 inflection = "*"
-pytest = ">=3.3.2"
+pytest = ">=5.0.0"
+typing_extensions = "*"
 
 [[package]]
 name = "pytest-mock"
@@ -1498,7 +1499,7 @@ lambda = ["awslambdaric"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "72ce5cb9545a65373ee1e65cb209071c195982af7abf32375abae0ae5f18592c"
+content-hash = "fc9464960e831b860d5915065e526f8bb7946692477a8692b034274191bc7002"
 
 [metadata.files]
 aniso8601 = []
