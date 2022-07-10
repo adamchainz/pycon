@@ -482,18 +482,18 @@ testing = ["pre-commit"]
 
 [[package]]
 name = "factory-boy"
-version = "3.1.0"
+version = "3.2.1"
 description = "A versatile test fixtures replacement based on thoughtbot's factory_bot for Ruby."
 category = "dev"
 optional = false
-python-versions = ">=3.5"
+python-versions = ">=3.6"
 
 [package.dependencies]
 Faker = ">=0.7.0"
 
 [package.extras]
 dev = ["coverage", "django", "flake8", "isort", "pillow", "sqlalchemy", "mongoengine", "wheel (>=0.32.0)", "tox", "zest.releaser"]
-doc = ["sphinx", "sphinx-rtd-theme"]
+doc = ["sphinx", "sphinx-rtd-theme", "sphinxcontrib-spelling"]
 
 [[package]]
 name = "faker"
@@ -1498,7 +1498,7 @@ lambda = ["awslambdaric"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "72ce5cb9545a65373ee1e65cb209071c195982af7abf32375abae0ae5f18592c"
+content-hash = "d1cbab83bbcbe1c3baa89497e27e9870933cd01cbd19f2128c90cee1dbd97466"
 
 [metadata.files]
 aniso8601 = []
